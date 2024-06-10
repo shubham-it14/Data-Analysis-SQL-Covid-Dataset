@@ -1,27 +1,25 @@
 Project Description: Data Exploration and Analysis of Global COVID-19 Data using SQL
-Project Overview:
 
+Project Overview:
 In this project, we utilized SQL for an extensive data exploration and analysis of global COVID-19 data. 
 The objective was to uncover critical insights and trends related to the spread, impact, and progression of the COVID-19 pandemic across various countries and regions.
 
 Technologies Used:
-
 SQL Server: For data storage, manipulation, and querying.
 Docker: To create a portable and consistent development environment by containerizing the SQL Server.
 Azure Data Studio: For connecting to the SQL Server container and executing SQL queries.
+
 Steps and Methodology:
-
 Setting Up the Environment:
-
 We used Docker to build a containerized instance of SQL Server. 
 This approach ensured a consistent and isolated environment for our database operations, making the setup easily replicable and manageable.
 The Docker container was configured to run SQL Server, providing a robust platform for our data storage and querying needs.
-Data Acquisition:
 
+Data Acquisition:
 We sourced global COVID-19 data from reputable public datasets, which included daily reports of COVID-19 cases, recoveries, deaths, and vaccination rates across different countries and regions.
 The data was cleaned and transformed into a suitable format for SQL analysis, ensuring consistency and accuracy.
-Data Exploration and Loading:
 
+Data Exploration and Loading:
 Using Azure Data Studio, we connected to our SQL Server container to load the cleaned data into the SQL database.
 We structured the data into relevant tables, setting up appropriate primary keys, foreign keys, and indexes to optimize query performance.
 SQL Querying and Analysis:
